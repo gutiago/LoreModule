@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.source_files = 'FFmpegWrapper/*.{h,m}', 'ffmpeg-ios-static-libs/include/**/*.h'
 
   s.subspec 'precompiled' do |ss|
-    ss.source_files        = 'ffmpeg-ios-static-libs/include/**/*.h'
     ss.public_header_files = 'ffmpeg-ios-static-libs/include/**/*.h'
     ss.header_mappings_dir = 'ffmpeg-ios-static-libs/include'
     ss.vendored_libraries  = 'ffmpeg-ios-static-libs/lib/*.a'
