@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char LoreModuleVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LoreModule/PublicHeader.h>
 
+//#import <LoreModule/FFmpegWrapper.h>
 
